@@ -17,4 +17,3 @@ Implement the command design pattern for rebinding and controller when missing t
 	The Command Pattern is a design pattern that holds all of the information about a specific action or event and sets it up so it can be called at a later time by other scripts.
 
 	The command design pattern will be used here to invert the controls for the up and down aiming movement. First, we will have to declare bullets as well as ducks, we will also declare that every time a bullet hits a target a point is awarded to the player, using the pooling system we made earlier, as soon as a bullet is destroyed it's announced to the system. After that, we must make an if statement stating this, if the bullet does not make contact twice in a row, set the y-axis to -y else if points are being awarded between shoots keep axis as is.
- 	
